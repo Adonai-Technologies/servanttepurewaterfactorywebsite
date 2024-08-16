@@ -19,14 +19,14 @@
     position: fixed;
     right: 30px;
     bottom: 30px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     z-index: 99;
 }
 
 /*** Button Start ***/
 .btn {
     font-weight: 600;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .btn-square {
@@ -95,7 +95,7 @@
     font-size: 17px;
     font-weight: 400;
     outline: none;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -177,7 +177,7 @@
         transform-origin: 0% 0%;
         border: 0;
         border-radius: 10px;
-        transition: .5s;
+        /* transition: .5s; */
         opacity: 0;
     }
 
@@ -208,7 +208,7 @@
         bottom: -1px;
         left: 50%;
         background: var(--bs-primary);
-        transition: .5s;
+        /* transition: .5s; */
     }
 
     .sticky-top.navbar-light .navbar-nav .nav-item::before {
@@ -224,7 +224,7 @@
         border: 10px solid;
         border-color: transparent transparent var(--bs-primary) transparent;
         opacity: 0;
-        transition: 0.5s;
+        /* transition: 0.5s; */
     }
 
     .navbar-light .navbar-nav .nav-item:hover::after,
